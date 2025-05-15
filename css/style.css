@@ -254,3 +254,58 @@ form input {
 
   transition-duration: 0.3s;
 }
+.type_all {
+  margin-top: 120px;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+.type_card {
+  width: 411px;
+  height: 421px;
+  border-radius: 12px;
+}
+.type1 {
+  background-image: url("../main_imgs/type1.svg");
+}
+.type2 {
+  background-image: url("../main_imgs/type2.svg");
+}
+.type3 {
+  background-image: url("../main_imgs/type3.svg");
+}
+.backdrop {
+  width: 100%;
+  height: 100%;
+  padding: 80px 48px;
+  border-radius: 12px;
+  background-color: rgba(11, 7, 6, 0.423);
+  color: white;
+}
+.backdrop h5 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+.backdrop p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0px;
+}
+@media (max-width: 855px) {
+  .type_all {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+a {
+  color: rgba(11, 7, 6, 1);
+}
+
+a:hover{
+  color: rgb(84, 83, 83);
+}
