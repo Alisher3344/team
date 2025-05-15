@@ -306,6 +306,93 @@ a {
   color: rgba(11, 7, 6, 1);
 }
 
-a:hover{
+a:hover {
   color: rgb(84, 83, 83);
+}
+.img_bg {
+  background-image: url("../main_imgs/bg.svg");
+  background-size: cover;
+  padding: 93px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img_bg h2 {
+  max-width: 631px;
+  padding-top: 32px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.buttons_In_imgbg {
+  margin-top: 32px;
+  display: flex;
+  gap: 32px;
+}
+.buttonn {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: rgba(255, 255, 255, 1);
+}
+.done {
+  color: black;
+}
+.join {
+  background-color: rgba(112, 193, 116, 1);
+}
+@media (max-width: 385px) {
+  .buttons_In_imgbg {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.ecologia_h2 {
+  margin-top: 96px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 140%;
+  letter-spacing: 0px;
+}
+
+.grdi_box img {
+  width: 280px;
+}
+.grdi_box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.grdi_box h5 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  max-width: 300px;
+}
+@media (max-width: 1193px) {
+  .grdi_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .gird_card {
+    max-width: 300px;
+  }
 }
